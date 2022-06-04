@@ -12,7 +12,7 @@ import java.util.zip.ZipInputStream;
 import io.github.micwan88.helperclass4j.protocol.handler.bytes.Handler;
 
 public class ByteClassLoader extends ClassLoader {
-	private HashMap<String, byte[]> byteDataMap = new HashMap<>();
+	public HashMap<String, byte[]> byteDataMap = new HashMap<>();
 	
 	/**
 	 * @param parent
